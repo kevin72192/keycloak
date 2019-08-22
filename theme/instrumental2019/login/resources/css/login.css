@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700");
+
+.login-pf body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #efefee;
+  color: #333739;
+}
+
+#kc-header {
+  background: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px;
+}
+
+#kc-header-wrapper {
+  font-size: 1.25rem;
+  padding-left: 2.5rem;
+  position: relative;
+}
+
+#kc-header-wrapper:before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  background-image: url("../img/instrumental-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-pf {
+  background: #fff;
+  margin: 16px auto;
+  /* padding: 16px; */
+  max-width: 500px;
+  box-shadow: 0 0 0;
+  box-sizing: border-box;
+}
+
+/* .login-pf-header,
+#kc-content { */
+.login-pf-header {
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.login-pf-header h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0px;
+}
+
+.form-group {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgb(223, 223, 230);
+  padding: 20px 16px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(185, 185, 185);
+  border-image: initial;
+  border-radius: 0.313rem;
+  padding: 0.5rem;
+  margin: 10px auto;
+}
+
+input[type="text"] {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+input#kc-login {
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.8rem;
+  background-color: rgb(240, 43, 113);
+  color: rgb(255, 255, 255);
+  border-radius: 0.313rem;
+  transition: background-color 0.15s linear 0s, color 0.15s linear 0s,
+    border-color 0.15s linear 0s;
+  outline: none;
+  padding: 0.5rem;
+  border-width: 0.125em;
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+}
+
+input#kc-login:hover {
+  background-color: transparent;
+  color: rgb(240, 43, 113);
+  border-width: 0.125em;
+  border-style: solid;
+  border-color: rgb(240, 43, 113);
+  border-image: initial;
+}
+
+#kc-form-buttons {
+  margin-top: 1.5rem;
+}
+
+.login-pf-page .btn-primary {
+  margin-top: 0;
+}
